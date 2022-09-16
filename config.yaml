@@ -1,0 +1,53 @@
+generalInformation:
+  serviceAdminEmail: jarro06@gmail.com
+  gheUsername: "123"
+  billingAccount: "123"
+  billingTeamName: billteamnam
+  gheToken: ""
+  adpAccessToken: ""
+projectInformation:
+  projectName: Mój super nowy projekt
+  projectShortName: full_protection
+  buildType: gradle
+  testInstance: true
+  preprodInstance: true
+  uatInstance: false
+cloudService:
+  awsOrAzure: eks
+  deploymentLocation: aws_ew3
+  acpOrCRP: ""
+  displayName: ""
+  version: ""
+  productionCluster: false
+  subscriptionId: ""
+  enableStorageProvisioning: true
+  ingressSubnetName: ""
+  clusterSubnetName: ""
+  adAdminGroupName: ""
+  adViewerGroupName: ""
+  adEditorGroupName: ""
+  privateDnsZone: ""
+  awsAccountId: ""
+  instanceType: ""
+  r53HostedZoneDomainName: ""
+  sshWorkerKey: ""
+  availabilityZones: ""
+  az1HarmonizedSubnetId: ""
+  az1WorkerSubnetId: ""
+  az1PodSubnetId: ""
+  az2HarmonizedSubnetId: ""
+  az2WorkerSubnetId: ""
+  az2PodSubnetId: ""
+  az3HarmonizedSubnetId: ""
+  az3WorkerSubnetId: ""
+  az3PodSubnetId: ""
+  workerSecurityGroupIds: ""
+  ingressSecurityGroupIds: ""
+  customDefinedAutomationAdminRole: ""
+automationService:
+  jenkinsOrGithubActions: gheactions
+gheOrganisation:
+  organisationName: jarro06
+  isNew: false
+testingTools:
+  sonarQube: false
